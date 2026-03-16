@@ -27,6 +27,9 @@ if (!detectedLocale) {
   detectedLocale = 'ar'
 }
 
+// Fixed on English
+detectedLocale = 'en'
+
 log('Detected locale: ' + detectedLocale)
 
 const IMAGE_TEXT_LOCALES = ['ar', 'ja', 'ko', 'zh']
